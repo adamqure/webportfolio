@@ -1,0 +1,62 @@
+body {
+  background-color: #A9A9A9;
+}
+
+img {
+  width: 200px;
+  height: 250px;
+}
+
+h1 {
+  font-family:cursive;
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+nav ul li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+nav ul li a:hover {
+  background-color: #111;
+}
+
+nav ul li{
+  border-right: 1px solid #bbb;
+  float:left;
+}
+
+nav ul li:last-child {
+  border-right: none;
+}
+
+.contactlist a {
+  text-decoration: none;
+  color: black;
+}
+
+.contactlist a:hover {
+  color:white;
+}
+
+section {
+ display: flex;
+}
+
+aside {
+ flex: 1
+}
+
+article {
+ flex: 4
+}
