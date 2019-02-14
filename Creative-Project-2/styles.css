@@ -1,0 +1,26 @@
+#jokeResults {
+    display: flex;
+    margin: 24px;
+    justify-content: center
+}
+
+#search-button {
+    display: flex;
+    margin: 0 auto;
+    margin-top: 12px;
+    margin-bottom: 12px;
+    align-content: center;
+    text-align: center;
+    vertical-align: middle;
+    border-radius: 43%;
+}
+
+.footer {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+    background-color: #efefef;
+    text-align: center;
+  }
